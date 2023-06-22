@@ -1,0 +1,89 @@
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #f78fb3, #ee7676, #ff3838e0);
+  }
+  
+  a {
+    background-size: 100%;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    position: center;
+    text-decoration: none;
+  }
+  button {
+    position: center;
+    height: 40px;
+  
+  }
+  p {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  /* formulario de email e senha */
+  .txtb {
+    position: relative;
+    margin: 30px 0;
+  }
+  .button1 {
+    position: relative;
+    margin: 30px 0;
+    position: center;
+  }
+  
+  .txtb input {
+    font-size: 15px;
+    color: rgb(12, 12, 12);
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+  }
+  .logbtn {
+    display: center;
+    width: 25%;
+    height: 40px;
+    border: none;
+    background: linear-gradient(120deg, #ee605f, #ee5f5fa6, #ee605f);
+    background-size: 100%;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    position: center;
+  }
+  
+  
+  .bottom-text {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .login-form {
+    width: 500px;
+    background: #f1f1f1;
+    height: 4000px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    position
+    left: 50%;
+    top: 50%;
+  
+  }
+  .login-form2 {
+    width: 360px;
+    background: #f1f1f1;
+    height: 200px;
+    padding: 80px 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
